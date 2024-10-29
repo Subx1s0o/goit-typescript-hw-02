@@ -1,10 +1,9 @@
-import "modern-normalize/modern-normalize.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "reset-css/reset.css";
-import App from "./App.tsx";
+import App from "./components/App/App";
 import "./index.css";
-ReactDOM.createRoot(document.getElementById("root")!).render(
+
+ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
